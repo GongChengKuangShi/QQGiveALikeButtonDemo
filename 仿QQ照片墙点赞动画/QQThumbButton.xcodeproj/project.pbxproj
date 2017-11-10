@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1BC0951D3C83B000B61C68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BC0941D3C83B000B61C68 /* main.m */; };
+		4F1BC0981D3C83B000B61C68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BC0971D3C83B000B61C68 /* AppDelegate.m */; };
+		4F1BC09B1D3C83B000B61C68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BC09A1D3C83B000B61C68 /* ViewController.m */; };
+		4F1BC09E1D3C83B000B61C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BC09C1D3C83B000B61C68 /* Main.storyboard */; };
+		4F1BC0A01D3C83B000B61C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BC09F1D3C83B000B61C68 /* Assets.xcassets */; };
+		4F1BC0A31D3C83B000B61C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BC0A11D3C83B000B61C68 /* LaunchScreen.storyboard */; };
+		4F1BC0AE1D3C83B000B61C68 /* QQThumbButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BC0AD1D3C83B000B61C68 /* QQThumbButtonTests.m */; };
+		4F1BC0B91D3C83B000B61C68 /* QQThumbButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BC0B81D3C83B000B61C68 /* QQThumbButtonUITests.m */; };
+		4F1BC0C91D3C893A00B61C68 /* ZFThumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BC0C81D3C893A00B61C68 /* ZFThumbButton.m */; };
+		4F1BC0D01D3C8AED00B61C68 /* UIView+ZF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BC0CE1D3C8AED00B61C68 /* UIView+ZF.m */; };
+		4F399D261D3F6A49001E4468 /* UIImage+ZF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F399D251D3F6A49001E4468 /* UIImage+ZF.m */; };
+		4FDE9A321D3FD55B00C146A6 /* NSString+ZF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE9A311D3FD55B00C146A6 /* NSString+ZF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1BC0AA1D3C83B000B61C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BC0881D3C83B000B61C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BC08F1D3C83B000B61C68;
+			remoteInfo = QQThumbButton;
+		};
+		4F1BC0B51D3C83B000B61C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BC0881D3C83B000B61C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BC08F1D3C83B000B61C68;
+			remoteInfo = QQThumbButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1BC0901D3C83B000B61C68 /* QQThumbButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQThumbButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BC0941D3C83B000B61C68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F1BC0961D3C83B000B61C68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F1BC0971D3C83B000B61C68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F1BC0991D3C83B000B61C68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F1BC09A1D3C83B000B61C68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F1BC09D1D3C83B000B61C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F1BC09F1D3C83B000B61C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1BC0A21D3C83B000B61C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F1BC0A41D3C83B000B61C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BC0A91D3C83B000B61C68 /* QQThumbButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQThumbButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BC0AD1D3C83B000B61C68 /* QQThumbButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQThumbButtonTests.m; sourceTree = "<group>"; };
+		4F1BC0AF1D3C83B000B61C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BC0B41D3C83B000B61C68 /* QQThumbButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQThumbButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BC0B81D3C83B000B61C68 /* QQThumbButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQThumbButtonUITests.m; sourceTree = "<group>"; };
+		4F1BC0BA1D3C83B000B61C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BC0C71D3C893A00B61C68 /* ZFThumbButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFThumbButton.h; sourceTree = "<group>"; };
+		4F1BC0C81D3C893A00B61C68 /* ZFThumbButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFThumbButton.m; sourceTree = "<group>"; };
+		4F1BC0CD1D3C8AED00B61C68 /* UIView+ZF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZF.h"; sourceTree = "<group>"; };
+		4F1BC0CE1D3C8AED00B61C68 /* UIView+ZF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZF.m"; sourceTree = "<group>"; };
+		4F1BC0D11D3C8AF700B61C68 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4F399D241D3F6A49001E4468 /* UIImage+ZF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZF.h"; sourceTree = "<group>"; };
+		4F399D251D3F6A49001E4468 /* UIImage+ZF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZF.m"; sourceTree = "<group>"; };
+		4FDE9A301D3FD55B00C146A6 /* NSString+ZF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZF.h"; sourceTree = "<group>"; };
+		4FDE9A311D3FD55B00C146A6 /* NSString+ZF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZF.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F1BC08D1D3C83B000B61C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BC0A61D3C83B000B61C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BC0B11D3C83B000B61C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1BC0871D3C83B000B61C68 = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0921D3C83B000B61C68 /* QQThumbButton */,
+				4F1BC0AC1D3C83B000B61C68 /* QQThumbButtonTests */,
+				4F1BC0B71D3C83B000B61C68 /* QQThumbButtonUITests */,
+				4F1BC0911D3C83B000B61C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F1BC0911D3C83B000B61C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0901D3C83B000B61C68 /* QQThumbButton.app */,
+				4F1BC0A91D3C83B000B61C68 /* QQThumbButtonTests.xctest */,
+				4F1BC0B41D3C83B000B61C68 /* QQThumbButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F1BC0921D3C83B000B61C68 /* QQThumbButton */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0991D3C83B000B61C68 /* ViewController.h */,
+				4F1BC09A1D3C83B000B61C68 /* ViewController.m */,
+				4F1BC0CA1D3C8AED00B61C68 /* Category */,
+				4F1BC0C61D3C88FC00B61C68 /* thumbButton */,
+				4F1BC0931D3C83B000B61C68 /* Supporting Files */,
+			);
+			path = QQThumbButton;
+			sourceTree = "<group>";
+		};
+		4F1BC0931D3C83B000B61C68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0D11D3C8AF700B61C68 /* PrefixHeader.pch */,
+				4F1BC0961D3C83B000B61C68 /* AppDelegate.h */,
+				4F1BC0971D3C83B000B61C68 /* AppDelegate.m */,
+				4F1BC09C1D3C83B000B61C68 /* Main.storyboard */,
+				4F1BC09F1D3C83B000B61C68 /* Assets.xcassets */,
+				4F1BC0A11D3C83B000B61C68 /* LaunchScreen.storyboard */,
+				4F1BC0A41D3C83B000B61C68 /* Info.plist */,
+				4F1BC0941D3C83B000B61C68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1BC0AC1D3C83B000B61C68 /* QQThumbButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0AD1D3C83B000B61C68 /* QQThumbButtonTests.m */,
+				4F1BC0AF1D3C83B000B61C68 /* Info.plist */,
+			);
+			path = QQThumbButtonTests;
+			sourceTree = "<group>";
+		};
+		4F1BC0B71D3C83B000B61C68 /* QQThumbButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0B81D3C83B000B61C68 /* QQThumbButtonUITests.m */,
+				4F1BC0BA1D3C83B000B61C68 /* Info.plist */,
+			);
+			path = QQThumbButtonUITests;
+			sourceTree = "<group>";
+		};
+		4F1BC0C61D3C88FC00B61C68 /* thumbButton */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0C71D3C893A00B61C68 /* ZFThumbButton.h */,
+				4F1BC0C81D3C893A00B61C68 /* ZFThumbButton.m */,
+			);
+			path = thumbButton;
+			sourceTree = "<group>";
+		};
+		4F1BC0CA1D3C8AED00B61C68 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BC0CD1D3C8AED00B61C68 /* UIView+ZF.h */,
+				4F1BC0CE1D3C8AED00B61C68 /* UIView+ZF.m */,
+				4F399D241D3F6A49001E4468 /* UIImage+ZF.h */,
+				4F399D251D3F6A49001E4468 /* UIImage+ZF.m */,
+				4FDE9A301D3FD55B00C146A6 /* NSString+ZF.h */,
+				4FDE9A311D3FD55B00C146A6 /* NSString+ZF.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F1BC08F1D3C83B000B61C68 /* QQThumbButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BC0BD1D3C83B000B61C68 /* Build configuration list for PBXNativeTarget "QQThumbButton" */;
+			buildPhases = (
+				4F1BC08C1D3C83B000B61C68 /* Sources */,
+				4F1BC08D1D3C83B000B61C68 /* Frameworks */,
+				4F1BC08E1D3C83B000B61C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQThumbButton;
+			productName = QQThumbButton;
+			productReference = 4F1BC0901D3C83B000B61C68 /* QQThumbButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F1BC0A81D3C83B000B61C68 /* QQThumbButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BC0C01D3C83B000B61C68 /* Build configuration list for PBXNativeTarget "QQThumbButtonTests" */;
+			buildPhases = (
+				4F1BC0A51D3C83B000B61C68 /* Sources */,
+				4F1BC0A61D3C83B000B61C68 /* Frameworks */,
+				4F1BC0A71D3C83B000B61C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1BC0AB1D3C83B000B61C68 /* PBXTargetDependency */,
+			);
+			name = QQThumbButtonTests;
+			productName = QQThumbButtonTests;
+			productReference = 4F1BC0A91D3C83B000B61C68 /* QQThumbButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F1BC0B31D3C83B000B61C68 /* QQThumbButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BC0C31D3C83B000B61C68 /* Build configuration list for PBXNativeTarget "QQThumbButtonUITests" */;
+			buildPhases = (
+				4F1BC0B01D3C83B000B61C68 /* Sources */,
+				4F1BC0B11D3C83B000B61C68 /* Frameworks */,
+				4F1BC0B21D3C83B000B61C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1BC0B61D3C83B000B61C68 /* PBXTargetDependency */,
+			);
+			name = QQThumbButtonUITests;
+			productName = QQThumbButtonUITests;
+			productReference = 4F1BC0B41D3C83B000B61C68 /* QQThumbButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F1BC0881D3C83B000B61C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张锋";
+				TargetAttributes = {
+					4F1BC08F1D3C83B000B61C68 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4F1BC0A81D3C83B000B61C68 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4F1BC08F1D3C83B000B61C68;
+					};
+					4F1BC0B31D3C83B000B61C68 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4F1BC08F1D3C83B000B61C68;
+					};
+				};
+			};
+			buildConfigurationList = 4F1BC08B1D3C83B000B61C68 /* Build configuration list for PBXProject "QQThumbButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F1BC0871D3C83B000B61C68;
+			productRefGroup = 4F1BC0911D3C83B000B61C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F1BC08F1D3C83B000B61C68 /* QQThumbButton */,
+				4F1BC0A81D3C83B000B61C68 /* QQThumbButtonTests */,
+				4F1BC0B31D3C83B000B61C68 /* QQThumbButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1BC08E1D3C83B000B61C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BC0A31D3C83B000B61C68 /* LaunchScreen.storyboard in Resources */,
+				4F1BC0A01D3C83B000B61C68 /* Assets.xcassets in Resources */,
+				4F1BC09E1D3C83B000B61C68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BC0A71D3C83B000B61C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BC0B21D3C83B000B61C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F1BC08C1D3C83B000B61C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BC0C91D3C893A00B61C68 /* ZFThumbButton.m in Sources */,
+				4F1BC09B1D3C83B000B61C68 /* ViewController.m in Sources */,
+				4F399D261D3F6A49001E4468 /* UIImage+ZF.m in Sources */,
+				4FDE9A321D3FD55B00C146A6 /* NSString+ZF.m in Sources */,
+				4F1BC0981D3C83B000B61C68 /* AppDelegate.m in Sources */,
+				4F1BC0D01D3C8AED00B61C68 /* UIView+ZF.m in Sources */,
+				4F1BC0951D3C83B000B61C68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BC0A51D3C83B000B61C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BC0AE1D3C83B000B61C68 /* QQThumbButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BC0B01D3C83B000B61C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BC0B91D3C83B000B61C68 /* QQThumbButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F1BC0AB1D3C83B000B61C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BC08F1D3C83B000B61C68 /* QQThumbButton */;
+			targetProxy = 4F1BC0AA1D3C83B000B61C68 /* PBXContainerItemProxy */;
+		};
+		4F1BC0B61D3C83B000B61C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BC08F1D3C83B000B61C68 /* QQThumbButton */;
+			targetProxy = 4F1BC0B51D3C83B000B61C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F1BC09C1D3C83B000B61C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1BC09D1D3C83B000B61C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F1BC0A11D3C83B000B61C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1BC0A21D3C83B000B61C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F1BC0BB1D3C83B000B61C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QQThumbButton/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F1BC0BC1D3C83B000B61C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QQThumbButton/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F1BC0BE1D3C83B000B61C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = QQThumbButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cris.QQThumbButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F1BC0BF1D3C83B000B61C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = QQThumbButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cris.QQThumbButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F1BC0C11D3C83B000B61C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQThumbButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cris.QQThumbButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQThumbButton.app/QQThumbButton";
+			};
+			name = Debug;
+		};
+		4F1BC0C21D3C83B000B61C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQThumbButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cris.QQThumbButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQThumbButton.app/QQThumbButton";
+			};
+			name = Release;
+		};
+		4F1BC0C41D3C83B000B61C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQThumbButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cris.QQThumbButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQThumbButton;
+			};
+			name = Debug;
+		};
+		4F1BC0C51D3C83B000B61C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQThumbButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cris.QQThumbButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQThumbButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F1BC08B1D3C83B000B61C68 /* Build configuration list for PBXProject "QQThumbButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BC0BB1D3C83B000B61C68 /* Debug */,
+				4F1BC0BC1D3C83B000B61C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1BC0BD1D3C83B000B61C68 /* Build configuration list for PBXNativeTarget "QQThumbButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BC0BE1D3C83B000B61C68 /* Debug */,
+				4F1BC0BF1D3C83B000B61C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1BC0C01D3C83B000B61C68 /* Build configuration list for PBXNativeTarget "QQThumbButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BC0C11D3C83B000B61C68 /* Debug */,
+				4F1BC0C21D3C83B000B61C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1BC0C31D3C83B000B61C68 /* Build configuration list for PBXNativeTarget "QQThumbButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BC0C41D3C83B000B61C68 /* Debug */,
+				4F1BC0C51D3C83B000B61C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F1BC0881D3C83B000B61C68 /* Project object */;
+}
